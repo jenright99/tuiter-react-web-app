@@ -1,0 +1,157 @@
+.wd-rounded-corners {
+    border-radius: 50px;
+}
+
+.wd-bg-color {
+    background-color: black;
+}
+
+.wd-gear-center {
+    padding-top: 10px;
+}
+
+.wd-search-bar {
+    background-color: darkgrey;
+    color: white;
+    height: 30px;
+    width: 95%;
+    font-size: 20px;
+}
+
+.wd-page-padding {
+    padding-left: 16px;
+}
+
+.wd-selected-header {
+
+    padding: 16px;
+    border-bottom: 5px solid;
+    border-bottom-color: #1DA1F2;
+    margin-left: 16px;
+    float: left;
+}
+
+.wd-undecorated-link {
+    text-decoration: none;
+    color: #1DA1F2;
+    font-size: 15px;
+}
+
+.wd-unselected-header {
+    padding: 16px;
+    float: left;
+}
+
+.wd-unselected-undecorated-link {
+    text-decoration: none;
+    color: #6E767D;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.wd-post-box {
+    background-color: black;
+    color: white;
+    border: 1px solid #2F3336;
+    float: bottom;
+}
+
+.wd-bookmarks-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.wd-bookmarks-box {
+    padding-top: 12px;
+}
+
+.wd-topic-text {
+    color: #6E767D;
+    font-size: 13px;
+}
+
+.wd-author-text {
+    color: lightgray;
+    font-size: 13px;
+}
+
+.wd-post-image {
+    height: 100px;
+    width: 100px;
+    padding-right: 16px;
+    border-radius: 25px;
+    float: left;
+}
+
+.wd-handle-box {
+    float: left;
+    padding-left: 12px;
+    font-size: 15px;
+}
+
+.wd-author-image {
+    height: 48px;
+    width: 48px;
+    border-radius: 100%;
+    float: left;
+}
+.wd-handle {
+    font-size: 15px;
+}
+
+.wd-white-color {
+    color: white;
+}
+
+.wd-lightgray-color {
+    color: lightgray;
+}
+
+.wd-author-post {
+    float: left;
+    width: 100%;
+    margin-right: 16px;
+    padding-top: 12px;
+}
+
+.wd-handle-body {
+    width: 506px;
+}
+
+.wd-article-img {
+    height: 264px;
+    width: 504px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    padding-top: 12px;
+}
+
+.wd-article-description {
+    padding: 12px;
+    border: 1px solid lightgray;
+    width: 504px;
+
+}
+
+.wd-article-icons {
+    border: 1px solid lightgray;
+    height: 25px;
+    width: 504px;
+    text-decoration: none;
+    color: lightgray;
+    text-align: justify;
+}
+
+.wd-grid-row {
+    clear: both;
+}
+
+.wd-grid-col {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.wd-red {
+    color: red;
+}
