@@ -3,70 +3,205 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link href="index.css"
-          rel="stylesheet"/>
+
+    <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet"/>
+    <link href="index.css" rel="stylesheet"/>
 </head>
-<body class="wd-bg-color">
+<body style="margin:16px;">
 
-<div class="wd-page-padding">
-    <input class="wd-rounded-corners wd-search-bar" title="Search Bar" placeholder="Search Tuiter"/>
-    <a href="explore-settings.html"><img class="wd-gear-center" src="gear.png" height="30px" width="30px"/></a>
-</div>
-<div class="wd-page-padding wd-selected-header">
-    <a class="wd-undecorated-link" href="index.html"><h3>For You</h3></a>
-</div>
-<div class="wd-unselected-header">
-    <a class="wd-unselected-undecorated-link" href="trending.html"><h3>Trending</h3></a>
-</div>
-<div class="wd-unselected-header">
-    <a class="wd-unselected-undecorated-link" href="covid19.html"><h3>COVID-19</h3></a>
-</div>
-<div class="wd-unselected-header">
-    <a class="wd-unselected-undecorated-link" href="news.html"><h3>News</h3></a>
-</div>
-<div class="wd-unselected-header">
-    <a class="wd-unselected-undecorated-link" href="sports.html"><h3>Sports</h3></a>
-</div>
-<div class="wd-unselected-header">
-    <a class="wd-unselected-undecorated-link" href="entertainment.html"><h3>Entertainment</h3></a>
-</div>
-<br/><br/><br/><br/><br/><br/><br/><br/>
+<div class="row">
+    <div class="col-2 text-nowrap">
+        <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action">
+                <i class="fab fa-twitter"></i> </a>
+            <a href="../home.html" class="list-group-item list-group-item-action">
+                <i class="fa-solid fa-house"></i> <span class="d-xxl-block d-xl-block d-lg-none d-sm-none d-none">Home</span></a>
+            <a href="#" class="list-group-item list-group-item-action active">
+                <i class="fa-solid fa-hashtag"></i> <span class="d-xxl-block d-xl-block d-lg-none d-sm-none d-none">Explore</span></a>
+            <a href="../notifications.html" class="list-group-item list-group-item-action">
+                <i class="fa-solid fa-bell"></i> <span class="d-xxl-block d-xl-block d-lg-none d-sm-none d-none">Notifications</span></a>
+            <a href="../messages.html" class="list-group-item list-group-item-action">
+                <i class="fa-solid fa-envelope"></i> <span class="d-xxl-block d-xl-block d-lg-none d-sm-none d-none">Messages</span></a>
+            <a href="../bookmarks/index.html" class="list-group-item list-group-item-action">
+                <i class="fa-solid fa-bookmark"></i> <span class="d-xxl-block d-xl-block d-lg-none d-sm-none d-none">Bookmarks</span></a>
+            <a href="../lists.html" class="list-group-item list-group-item-action">
+                <i class="fa-solid fa-list"></i> <span class="d-xxl-block d-xl-block d-lg-none d-sm-none d-none">Lists</span></a>
+            <a href="../profile.html" class="list-group-item list-group-item-action">
+                <i class="fa-solid fa-person"></i> <span class="d-xxl-block d-xl-block d-lg-none d-sm-none d-none">Profile</span></a>
+            <a href="#" class="list-group-item list-group-item-action">
+                <i class="fa-solid fa-ellipsis"></i> <span class="d-xxl-block d-xl-block d-lg-none d-sm-none d-none">More</span></a>
+            <button class="btn btn-primary" href="#">
+                Tweet
+            </button>
+        </div>
+    </div>
+    <div class="col-4">
+        <div class="input-group wd-search-bar">
+            <input class="form-control wd-search-offset" placeholder="Search" />
+            <i class="fa fa-magnifying-glass wd-search-icon"></i>
+            <i class="fa-solid fa-gear fa-2x" style="color:blue"></i>
+        </div>
+
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link active" href="for-you.html">For You</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="trending.html">Trending</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="news.html">News</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="sports.html">Sports</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="entertainment.html">Entertainment</a>
+            </li>
+        </ul>
+
+        <div class="card">
+            <img src="../../images/spacexstarship.jpg"
+                 class="card-img-top" alt="...">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    <div class="wd-post-box wd-page-padding wd-author-post">
+                        <img src="../../images/react.jpg" class="wd-post-image"/>
+                        <p class="wd-topic-text">Web Development</p>
+                        <p><b>ReactJS</b> <i class="fa fa-check-circle"></i> <span class="wd-topic-text"> - 2h</span></p>
+                        <p><b>React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs</b></p>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="wd-post-box wd-page-padding wd-author-post">
+                        <img src="../../images/javascript.jpg" class="wd-post-image"/>
+                        <p><b>JavaScript</b> <i class="fa fa-check-circle"></i> <span class="wd-topic-text"> - 2h</span></p>
+                        <p><b>JavaScript is a programming language that can run on browsers as well as desktops</b></p>
+                        <p class="wd-topic-text">123k Tuits</p>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="wd-post-box wd-page-padding wd-author-post">
+                        <img src="../../images/jquery.jpg" class="wd-post-image"/>
+                        <p class="wd-topic-text">Web Development</p>
+                        <p><b>jQuery</b></p>
+                        <p class="wd-topic-text">123k Tuits</p>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="wd-post-box wd-page-padding wd-author-post">
+                        <img src="../../images/node.jpg" class="wd-post-image"/>
+                        <p class="wd-topic-text">Web Development</p>
+                        <p><b>NodeJS</b> <i class="fa fa-check-circle"></i> <span class="wd-topic-text"> - 2h</span></p>
+                        <p class="wd-topic-text">123k Tuits</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
 
 
 
-<div class="wd-post-box wd-page-padding">
-    <p class="wd-topic-text">Trending in Science</p>
-    <p>Starship</p>
-    <p class="wd-topic-text">55.5k Tuits</p>
-</div>
-<div class="wd-post-box wd-page-padding">
-    <p class="wd-topic-text">Sports - Trending</p>
-    <p>Dwayne "The Rock" Johnson</p>
-    <p class="wd-topic-text">55.5m Tuits</p>
-</div>
-<div class="wd-post-box wd-page-padding wd-author-post">
-    <img src="../profilepic.jpg" class="wd-post-image"/>
-    <p class="wd-author-text">Dwayne Johnson</p>
-    <p>I'm playing Black Adam</p>
-    <p class="wd-topic-text">55.5m Tuits</p>
-</div>
-<div class="wd-post-box wd-page-padding wd-author-post">
-    <img src="../profilepic2.jpg" class="wd-post-image"/>
-    <p class="wd-author-text">The Rock</p>
-    <p>I'm playing Black Adam</p>
-    <p class="wd-topic-text">55.5m Tuits</p>
-</div>
-<div class="wd-post-box wd-page-padding wd-author-post">
-    <img src="../profilepic3.jpg" class="wd-post-image"/>
-    <p class="wd-topic-text">Wrestling - Live</p>
-    <p>Learn about Wrestler turned Actor Dwayne Johnson</p>
-</div>
-<div class="wd-post-box wd-page-padding wd-author-post">
-    <img src="../profilepic5.jpg" class="wd-post-image"/>
-    <p class="wd-topic-text">Acting - Live</p>
-    <p>Learn about the actor who was once a wrestler Dwayne Johnson</p>
-</div>
+    </div>
 
+    <div class="col-2 d-none d-lg-block d-xl-block d-xxl-block">
+        <ul class="list-group">
+            <li><h3>Who to follow</h3></li>
+            <li class="list-group-item">
+                <div class="row">
+                <div class="col-4">
+                    <img src="../../images/java.jpg" class="wd-follow-image"/>
+                </div>
+                <div class="col-4">
+                    <p style="white-space: nowrap"><b>Java</b> <i class="fa fa-check-circle"></i></p>
+                    <p class="wd-topic-text">@Java</p>
+                </div>
+                <div class="col-4">
+                    <button class="btn btn-primary wd-follow-button" href="#">
+                        Follow
+                    </button>
+                </div>
+                </div>
+            </li>
+            <li class="list-group-item">
+                <div class="row">
+                    <div class="col-4">
+                        <img src="../../images/relativityspace.jpg" class="wd-follow-image"/>
+                    </div>
+                    <div class="col-4">
+                        <p style="white-space: nowrap"><b>Relativity Space</b> <i class="fa fa-check-circle"></i></p>
+                        <p class="wd-topic-text">@relativityspace</p>
+                    </div>
+                    <div class="col-4">
+                        <button class="btn btn-primary wd-follow-button" href="#">
+                            Follow
+                        </button>
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item">
+                <div class="row">
+                    <div class="col-4">
+                        <img src="../../images/virgin.jpg" class="wd-follow-image"/>
+                    </div>
+                    <div class="col-4">
+                        <p style="white-space: nowrap"><b>Virgin Galactic</b> <i class="fa fa-check-circle"></i></p>
+                        <p class="wd-topic-text">@virgingalactic</p>
+                    </div>
+                    <div class="col-4">
+                        <button class="btn btn-primary wd-follow-button" href="#">
+                            Follow
+                        </button>
+                    </div>
+                </div>
+            </li>
+        </ul>
+            <li class="list-group-item">
+                <div class="row">
+                    <div class="col-4">
+                        <img src="../../images/nasa.jpg" class="wd-follow-image"/>
+                    </div>
+                    <div class="col-4">
+                        <p style="white-space: nowrap"><b>NASA</b> <i class="fa fa-check-circle"></i></p>
+                        <p class="wd-topic-text">@NASA</p>
+                    </div>
+                    <div class="col-4">
+                        <button class="btn btn-primary wd-follow-button" href="#">
+                            Follow
+                        </button>
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item">
+                <div class="row">
+                    <div class="col-4">
+                        <img src="../../images/tesla.jpg" class="wd-follow-image"/>
+                    </div>
+                    <div class="col-4">
+                        <p style="white-space: nowrap"><b>Tesla</b> <i class="fa fa-check-circle"></i></p>
+                        <p class="wd-topic-text">@Tesla</p>
+                    </div>
+                    <div class="col-4">
+                        <button class="btn btn-primary wd-follow-button" href="#">
+                            Follow
+                        </button>
+                    </div>
+                </div>
+            </li>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+</div>
 
 
 </body>
