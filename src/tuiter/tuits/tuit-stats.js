@@ -1,6 +1,4 @@
 import React from "react";
-import ExploreComponent from "../explore";
-import WhoToFollowList from "../who-to-follow-list";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 const TuitStats = (
