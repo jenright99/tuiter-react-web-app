@@ -184,6 +184,13 @@ const init = () => {
     console.log(bindById);
     console.log(bindByClass);
 
+    const a = {b: 21, c: 32};
+    const d = {...a, c: 43};
+    const e = [d, a];
+    const [f, j] = e;
+    console.log(f.c)
+    console.log("Exam Answer")
+
     const changeStyle = $('#change-style');
     const changeStyle2 = $('.change-style');
     changeStyle.css('color', 'red');
@@ -227,6 +234,7 @@ const init = () => {
    <li>Line item A</li>
    <li>Line item B</li>
    <li>Line item C</li>
+   
 `);
 
     const child2 = $("#child-2");
@@ -257,6 +265,8 @@ const init = () => {
     }
     hideBtn.click(hideHandler);
     showBtn.click(showHandler);
+
+
 
     /* do the rest of the lab work here */
 }
